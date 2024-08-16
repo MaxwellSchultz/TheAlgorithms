@@ -1,8 +1,8 @@
 import src.thealgorithms.mergesort as mergesort
 
-# ============================== #
-# Testing merge() method
-# ============================== #
+# ======================================== #
+# Testing merge(arr,p,q,r) method
+# ======================================== #
 def test_merge_two():
     p = 0
     r = 1
@@ -45,9 +45,9 @@ def test_merge_nine():
     arr = [5,8,9,12,13,6,7,10,11]
     assert mergesort.merge(arr,p,q,r) == [5,6,7,8,9,10,11,12,13]
     
-# ============================== #
-# Testing mergesort() method
-# ============================== #
+# ======================================== #
+# Testing mergesort(arr,p,r) method
+# ======================================== #
     
 def test_mergesort_empty():
     p = 0
